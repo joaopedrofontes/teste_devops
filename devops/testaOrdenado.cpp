@@ -14,11 +14,18 @@ bool testeOrdenado(int lista[], int n) {
 
 int main() {
     int lista[5] = {2, 40, 41, 54, 50};
-    
+    int segundaLista[5] = {3, 8, 1, 10 ,40};
+
     if (testeOrdenado(lista, 5)) {
-        cout << "Está ordenado" << endl;
+        cout << "A primeira lista está ordenada" << endl;
     } else {
-        cout << "Não está ordenado" << endl;
+        cout << "A primeira lista não está ordenada" << endl;
+    }
+    if (testeOrdenado(segundaLista, 5)) {
+        cout << "A segunda lista está ordenada" << endl;
+    }
+    else {
+        cout << "A segunda lista não está ordenada" << endl;
     }
     
     return 0;
