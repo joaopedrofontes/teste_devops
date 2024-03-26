@@ -4,6 +4,9 @@ int somaDeDoisNumeros(int x, int y){
     return x + y;
 }
 
+int multiplicacao(int x, int y){
+    return x * y;
+}
 
 
 int main(){
