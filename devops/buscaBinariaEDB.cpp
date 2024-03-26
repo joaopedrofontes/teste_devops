@@ -26,6 +26,8 @@ int main(){
 
     int lista[tamanho] = {2, 4, 35, 77, 102, 300, 301};
 
+    int listaMain[tamanho] = {3, 4, 32, 71, 101, 305, 3000};
+
     int valor = 301;
 
     int posicao = busca_binaria(valor, lista, tamanho);
